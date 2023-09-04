@@ -1,0 +1,21 @@
+.celula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25px;
+    height: 25px;
+
+    border: solid 1px grey;
+
+    transition: 0.15s;
+}
+
+    .celula:hover {
+        width: 30px;
+        height: 30px;
+
+        cursor: pointer;
+
+        background-color: rgb(201, 201, 201);
+    }
