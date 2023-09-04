@@ -1,9 +1,9 @@
 import styles from './celula.module.css';
 
-export default function Celula({idx, item, click}) {
+export default function Celula({idx, item, id, click}) {
     return (
-        <div key={idx} className={styles.celula} onClick={click}>
+        <span key={idx} id={id} className={styles.celula} onClick={click}>
             {item}
-        </div>
+        </span>
     )
 }
