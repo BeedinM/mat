@@ -46,14 +46,15 @@ export default function IndexPage() {
             })}
             <div>
                 <div>
-                    <select name="cor" onChange={(e) => corChange(e)}>
+                    {/* <select name="cor" onChange={(e) => corChange(e)}>
                         <option value="White">Branco</option>
                         <option value="Black">Preto</option>
                         <option value="Blue">Azul</option>
                         <option value="Green">Verde</option>
                         <option value="Pink">Rosa</option>
                         <option value="Grey">Cinza</option>
-                    </select>
+                    </select> */}
+                    <input name='cor' type="color" onChange={(e) => corChange(e)} /> 
                 </div>
 
                 {col && linha && (
