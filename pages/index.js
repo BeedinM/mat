@@ -38,7 +38,7 @@ export default function IndexPage() {
                             const colunaP = idx + 1;
                             const idFormat = `${linhaP},${colunaP}`
                             return (
-                                <Celula idx={idx + 1} item={casa} id={idFormat} click={() => {click(idx + 1, index + 1)}}/>
+                                <Celula key={idx + 1} item={casa} id={idFormat} click={() => {click(idx + 1, index + 1)}}/>
                             )
                         })}
                     </div>
