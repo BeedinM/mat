@@ -5,11 +5,11 @@ import styles from '../styles/utils.module.css';
 
 import Celula from "@/components/celula/celula";
 
-export default function Index() {
+export default function IndexPage() {
     const [col, setCol] = useState(0)
     const [linha, setLinha] = useState(0);
     const [cor, setCor] = useState('');
-    const listaQ = criaListaQ(20);
+    const listaQ = criaListaQ(50);
 
     useEffect(() => {
         if(col && linha) {
